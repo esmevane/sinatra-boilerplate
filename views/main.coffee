@@ -1,2 +1,1 @@
-$(document).ready ->
-  alert 'success'
+$(document).ready -> console.log 'Skullpiece main, reporting for duty'
