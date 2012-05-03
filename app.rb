@@ -9,8 +9,8 @@ get '/' do
   haml :home
 end
 
-get '/scripts/lib/:script' do
+get '/scripts/lib/*.*' do |script, file_type|
   content_type 'text/javascript'
 
-  coffee params[:script].to_sym
+  coffee script.to_sym
 end
