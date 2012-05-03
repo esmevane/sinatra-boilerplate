@@ -1,1 +1,1 @@
-$(document).ready -> console.log 'Skullpiece main, reporting for duty'
+$(document).ready -> console.log 'Boilerplate main, reporting for duty'
